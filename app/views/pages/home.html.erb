@@ -1,43 +1,5 @@
-<head>
-<style> 
-.columnlayout {
-    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
-    -moz-columns: 100px 3; /* Firefox */
-    columns: 100px 3;
-}
-</style>
-</head>
-<body>
- 
-<h1>Mike's homepage</h1>
-
-<p>
-  <%= link_to "Alpha Blog", articles_path %> |
-  <%= link_to "About", about_path %>
-</p>
-
-
-
-<div class="columnlayout">
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla sem tellus, at sollicitudin urna maximus vitae. Duis auctor dolor enim, ac consectetur felis sodales vitae. Ut ut elit mattis, volutpat dolor at, sodales arcu. Suspendisse gravida nibh libero, sit amet posuere urna viverra nec. Praesent fringilla, risus eget aliquet finibus, sem tellus viverra elit, at tincidunt felis massa nec nibh. Aliquam quis leo turpis. Mauris sed neque consectetur, tincidunt arcu quis, venenatis elit. Vivamus scelerisque, enim vitae porttitor auctor, nisi tortor porttitor orci, et fringilla quam neque eu ante. Sed commodo lobortis felis, at ornare eros pulvinar sed. Suspendisse sapien odio, faucibus eget sagittis ut, tincidunt quis arcu. Donec eget nibh sed ipsum facilisis commodo. Vivamus odio ipsum, rutrum commodo quam vel, pulvinar accumsan leo. Proin orci sapien, sagittis vel bibendum vitae, egestas convallis erat.
-
-Mauris et nisi eget orci faucibus porta. Maecenas ut nisl nunc. In ultricies nisi metus, vel commodo orci dapibus non. Nam nunc erat, tempor eu sollicitudin at, consectetur at lacus. Mauris in malesuada lacus, at porttitor magna. Nam lobortis felis vitae nunc placerat sodales sed eu ipsum. Pellentesque lacus nibh, sodales eget orci eu, malesuada dictum lorem. Sed non mauris vitae nisl bibendum commodo quis et nibh. Praesent sit amet blandit tellus.
-
-Aenean suscipit rutrum nulla placerat ornare. Nunc arcu sem, laoreet nec fringilla placerat, elementum elementum mi. Praesent suscipit arcu at ornare convallis. Fusce eget posuere elit, ut sollicitudin nibh. Phasellus eu dui ipsum. Donec ligula nibh, consectetur nec sollicitudin ut, vehicula vitae neque. Sed a rhoncus ex, pharetra tincidunt sapien. Pellentesque sollicitudin tortor nec arcu sodales, et sodales sem ultricies. Nulla id purus vel nunc congue ultrices sit amet quis purus. Mauris laoreet, erat nec posuere gravida, risus nunc maximus arcu, ut placerat augue sem vitae est. Praesent nec convallis lacus. Sed iaculis dignissim convallis. Proin purus urna, aliquet ac dapibus vitae, ultrices vel metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Mauris rutrum neque vel lorem malesuada, vitae ornare mi aliquet. Suspendisse sed purus neque. Vivamus libero nulla, elementum quis velit sed, malesuada interdum metus. Donec ante tortor, porta et leo vitae, efficitur vestibulum odio. Cras vitae dolor id magna tincidunt porttitor ac id orci. Donec cursus sollicitudin sollicitudin. Donec sed metus eu ligula laoreet varius. Pellentesque vitae interdum metus. Donec mattis venenatis tempus. Duis diam lorem, tristique et mi non, vestibulum sollicitudin orci.
-
-Vivamus non euismod nulla. Morbi quis hendrerit nisl, id cursus libero. Aliquam erat volutpat. Nunc porta, metus eleifend bibendum pretium, nulla augue posuere risus, eget vehicula urna elit in ante. Sed tortor magna, fringilla et placerat a, hendrerit eget metus. Nullam dignissim, metus a interdum hendrerit, lacus sem vulputate risus, volutpat aliquet eros nibh pretium sem. Morbi vulputate libero arcu, eget egestas tellus tristique quis. Mauris orci diam, consequat sit amet volutpat tristique, tempus nec arcu. Suspendisse nibh dolor, semper vitae felis auctor, ornare elementum urna. Etiam rutrum orci id ipsum elementum fermentum.
-
-Pellentesque sagittis fermentum orci, eget elementum est ornare sit amet. Nunc ultrices diam consectetur libero auctor, eu condimentum sem feugiat. Curabitur pretium egestas nisi non condimentum. Curabitur vitae sollicitudin lorem. Vestibulum blandit leo eu lacinia sodales. Mauris sagittis pellentesque sapien sed congue. Donec placerat libero nec fermentum vehicula. Maecenas sit amet est id lorem efficitur imperdiet ac a risus. Maecenas a tortor ut nunc tincidunt feugiat. Nulla sodales lacus at magna finibus bibendum. Maecenas non euismod augue.
-
-Fusce eget urna a sapien pharetra volutpat. Vestibulum id felis sed nibh convallis convallis a nec sem. Ut ipsum urna, tincidunt non nulla elementum, congue eleifend diam. In in ultricies lorem, ac aliquam mi. Pellentesque nec lorem turpis. In ac lorem volutpat, ultrices leo sed, lacinia elit. Pellentesque at eleifend velit, eget semper massa. Pellentesque pulvinar vitae nisl eu volutpat. Mauris laoreet lectus quis lacinia maximus. Suspendisse iaculis, felis eget fringilla condimentum, nibh mi pharetra odio, sit amet sollicitudin sapien ante convallis massa. Curabitur pulvinar sed velit non mollis. Pellentesque non iaculis ipsum. Vestibulum vel massa dapibus, feugiat lectus et, vehicula felis. Nullam vehicula commodo condimentum. Ut purus enim, ullamcorper ut congue sit amet, malesuada ac urna.
-
-Aliquam fringilla facilisis sapien sed placerat. Etiam pretium accumsan volutpat. Proin mi dui, suscipit et fermentum eu, faucibus vel est. In dolor massa, imperdiet eu tempor auctor, venenatis at enim. Nunc pharetra pellentesque risus euismod egestas. Integer suscipit tempus facilisis. In dignissim nibh in ligula eleifend tincidunt. Nunc sapien nisi, auctor sit amet sagittis vitae, imperdiet ac sem. Suspendisse ut nisl risus. Etiam eu gravida enim, ac dictum sem.
-
-Aliquam convallis pellentesque sem, quis porta nisi facilisis id. Curabitur cursus tempor dui, sed commodo velit ornare vitae. Sed eu odio posuere, suscipit lectus pretium, semper mi. Phasellus at nulla tortor. Aliquam in iaculis dui. In hac habitasse platea dictumst. Nunc eu pellentesque sapien, ac iaculis orci. Etiam nec nulla et metus maximus sollicitudin. Aliquam ultricies tellus leo, eget tristique ipsum volutpat et. Sed non tristique velit. Duis a mattis augue. Mauris cursus ex et sapien scelerisque pretium.
-
-Cras mauris felis, mattis nec lacinia ac, ultricies sit amet erat. Integer euismod pretium purus a aliquet. Pellentesque venenatis sem at eros luctus, ut porta ipsum dapibus. Cras a massa nec odio iaculis molestie nec vel ex. Nam sem libero, maximus sed lorem quis, venenatis iaculis ligula. Fusce volutpat ex eu suscipit ultrices. Morbi id ligula eu turpis vulputate dictum. Donec elit arcu, volutpat sit amet aliquam at, vestibulum ut dolor. Donec fermentum ultrices eros, nec pulvinar libero blandit id. Praesent malesuada justo lorem, sagittis bibendum risus lacinia sit amet. Suspendisse potenti. Suspendisse laoreet consectetur nibh quis iaculis. Nam a elit egestas, consequat elit sed, mollis diam. Duis et malesuada nunc. Integer tincidunt mollis tempus.
- 
+<div class="center jumbotron">
+  <h1>ALPHA BLOG</h1>
+  <p><%= link_to "Sign Up", "#", class: "btn btn-danger btn-lg btn-xlarge" %></p>
+  <p><%= link_to "Log In", "#", class: "btn btn-danger btn-lg btn-xlarge" %></p>
 </div>
-</body>
